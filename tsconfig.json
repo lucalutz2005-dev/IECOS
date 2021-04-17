@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "types": ["typescript-to-lua/language-extensions", "cc-tweaked-types/declarations"],
+    "strict": true
+  },
+  "tstl": {
+    "luaTarget": "universal",
+    "noHeader": true,
+    "luaBundle": "dist/dist.lua",
+    "luaBundleEntry": "src/index.ts"
+  }
+}

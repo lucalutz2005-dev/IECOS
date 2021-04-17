@@ -1,0 +1,16 @@
+{
+  "name": "iecos",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tstl",
+    "build:dev": "tstl --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "typescript-to-lua": "^0.39.2"
+  },
+  "dependencies": {
+    "cc-tweaked-types": "^0.1.1"
+  }
+}
